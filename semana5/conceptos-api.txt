@@ -1,0 +1,5 @@
+¿Qué hace esta ruta?
+La ruta 'app.post('/reporte')' crea un endpoint que escucha peticiones mediante el método HTTP POST. A diferencia de GET, esta ruta no lee datos de la URL, sino que extrae la información estructurada en formato JSON que viaja oculta dentro del cuerpo de la solicitud (req.body.mensaje) y responde confirmando que el reporte fue procesado exitosamente en un objeto JSON.
+
+¿Para qué podría servir en una aplicación comunitaria?
+En el contexto de una iniciativa social o comunitaria, esta ruta podría servir como el canal técnico para recibir denuncias, sugerencias, reportes de fallas en servicios públicos o alertas vecinales. Por ejemplo, un ciudadano podría rellenar un formulario en su teléfono celular y, al presionar enviar, los datos del problema viajarían seguros hacia este endpoint POST para ser registrados y atendidos por el comité del barrio.

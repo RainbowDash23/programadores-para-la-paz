@@ -1,0 +1,10 @@
+Descripción de lo que ocurre en cada ruta al probar en el navegador:
+
+1. Al acceder a http://localhost:3000:
+El servidor detecta la ruta raíz '/' mediante el método GET y responde enviando el texto plano "Servidor activo" directamente a la pantalla del navegador.
+
+2. Al acceder a http://localhost:3000/saludo:
+El servidor procesa el endpoint '/saludo' y devuelve como respuesta un mensaje de bienvenida general que dice "Hola comunidad".
+
+3. Al acceder a http://localhost:3000/mensaje/juan:
+El servidor lee el parámetro dinámico ':nombre' de la URL (en este caso, detecta el valor "juan") y lo inyecta dinámicamente en la respuesta para imprimir "Hola juan". Si se cambia "juan" por cualquier otro nombre, el saludo cambia automáticamente.
