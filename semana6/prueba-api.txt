@@ -1,0 +1,11 @@
+Explicación de la prueba de la ruta /registro:
+
+Al enviar una petición HTTP utilizando el método POST hacia la dirección 'http://localhost:3000/registro' con un cuerpo de datos estructurado en formato JSON (conteniendo las llaves "nombre" y "mensaje"), el servidor procesa la información gracias al middleware express.json(). 
+
+La API captura estos valores mediante el objeto 'req.body' y devuelve de inmediato una respuesta al cliente en el mismo formato JSON, confirmando la recepción con el objeto:
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+Esto demuestra que el canal de comunicación bidireccional entre el cliente y el servidor backend está funcionando de manera óptima.

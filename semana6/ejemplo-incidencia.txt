@@ -1,0 +1,4 @@
+{
+  "tipo": "Seguridad e Iluminación",
+  "descripcion": "La comunidad reporta que el reflector principal del polideportivo se encuentra dañado, dejando la zona a oscuras durante la noche."
+}
