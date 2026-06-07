@@ -1,0 +1,7 @@
+Explicación del ciclo de consultas GET y POST en /reportes:
+
+Al iniciar el servidor por primera vez y realizar una petición GET a 'http://localhost:3000/reportes', el servidor responde con un array vacío '[]' debido a que la variable 'reportes' en memoria no ha recibido datos.
+
+Posteriormente, al enviar una petición POST con los datos de "Infraestructura" y "Daño en alumbrado público", el backend procesa el objeto, le asigna de manera dinámica el "id": 1 mediante la propiedad '.length + 1' del array, y lo almacena usando el método '.push()'. 
+
+Finalmente, al volver a consultar la ruta GET en el navegador o cliente API, el servidor ya no devuelve un arreglo vacío, sino una lista estructurada en formato JSON que contiene el reporte recién registrado con su respectivo identificador único, demostrando que la API mantiene los datos de forma consistente en memoria mientras el proceso continúe encendido.
