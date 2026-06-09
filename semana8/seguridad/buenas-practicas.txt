@@ -1,0 +1,3 @@
+1. Proteger contraseñas mediante el uso de gestores y políticas robustas.
+2. No compartir credenciales de acceso ni llaves SSH bajo ningún concepto.
+3. Mantener el software del servidor y los paquetes actualizados constantemente.

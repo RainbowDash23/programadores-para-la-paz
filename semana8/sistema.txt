@@ -1,0 +1,11 @@
+Información de comandos del sistema:
+
+1. El comando 'uname -a':
+Muestra toda la información del sistema operativo y del núcleo (kernel) que se está ejecutando. Esto incluye el nombre del sistema, el nombre del nodo de red (hostname), la versión de la compilación, la arquitectura del hardware de la máquina (por ejemplo, x86_64) y el tipo de sistema operativo.
+
+2. El comando 'whoami':
+Muestra de forma explícita el nombre del usuario con el que se tiene iniciada la sesión activa en la terminal actual.
+
+¿Por qué es útil conocer esta información al administrar un servidor?
+Conocer estos detalles es vital al gestionar un servidor remoto porque determina la compatibilidad de los paquetes de software, dependencias y scripts que se van a instalar en el backend. Saber qué arquitectura y kernel se tienen previene fallas de despliegue, y conocer con qué usuario se está operando ('whoami') evita errores graves de permisos (como intentar modificar configuraciones del sistema sin los privilegios de administrador o superusuario 'root').
+

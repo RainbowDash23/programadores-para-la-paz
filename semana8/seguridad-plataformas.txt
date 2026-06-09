@@ -1,0 +1,7 @@
+5 Prácticas de seguridad para una plataforma digital comunitaria:
+
+1. No exponer datos personales: Ocultar y encriptar en las bases de datos la información sensible de los usuarios (como teléfonos o identificaciones) para que no sean visibles al público general.
+2. Proteger credenciales: Implementar algoritmos de encriptación hashing (como bcrypt) en el backend para almacenar contraseñas de forma segura.
+3. Usar conexiones seguras: Implementar certificados SSL/TLS para obligar a la plataforma a operar exclusivamente bajo el protocolo HTTPS, garantizando que los datos viajen encriptados desde el navegador.
+4. Registrar accesos de forma estricta: Mantener bitácoras o logs del servidor que auditen qué usuarios y roles realizaron modificaciones críticas en el sistema.
+5. Limitar acceso a información sensible: Aplicar el principio de mínimo privilegio, configurando roles donde solo los administradores estrictamente validados puedan visualizar datos restringidos.
