@@ -2,6 +2,9 @@ La seguridad digital no es simplemente un requisito técnico secundario,
 sino un pilar ético y democrático fundamental para proteger la integridad de las
  plataformas tecnológicas comunitarias. Cuando los ciudadanos deciden organizarse 
 virtualmente para reportar problemas locales, realizar veedurías o gestionar alertas vecinales, 
-depositan su confianza y datos personales en el sistema. Un fallo de seguridad o una filtración de información sensible podría exponer a los líderes sociales y habitantes a riesgos de suplantación, acoso o represalias en la vida real. Por lo tanto, blindar el backend con conexiones seguras HTTPS y controles estrictos de acceso resguarda directamente el derecho a la participación ciudadana libre y sin miedos. Además, una infraestructura digital bien protegida evita que actores externos manipulen las bases de datos para sembrar desinformación o desestabilizar la convivencia.
+depositan su confianza y datos personales en el sistema. Un fallo de seguridad o una filtración de información sensible podría exponer a los
+líderes sociales y habitantes a riesgos de suplantación, acoso o represalias en la vida real. Por lo tanto, 
+blindar el backend con conexiones seguras HTTPS y controles estrictos de acceso resguarda directamente el derecho a la participación ciudadana libre y sin miedos. 
+Además, una infraestructura digital bien protegida evita que actores externos manipulen las bases de datos para sembrar desinformación o desestabilizar la convivencia.
  En conclusión, garantizar la ciberseguridad en espacios participativos es la única vía para sostener un entorno digital confiable,
  transparente y verdaderamente pacífico.
