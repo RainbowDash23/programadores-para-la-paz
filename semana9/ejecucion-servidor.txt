@@ -1,0 +1,14 @@
+Descripción del proceso de ejecución del servidor:
+
+1. ¿Qué ocurre cuando ejecutas 'node server.js'?:
+El entorno de ejecución de Node.js carga el motor V8 de JavaScript, procesa las instrucciones del archivo, levanta el framework Express en la memoria de la máquina y abre un canal de escucha persistente en la red local.
+
+2. ¿Qué mensaje aparece en la terminal?:
+Aparece de forma exacta el mensaje configurado en el callback del método listen: "Servidor ejecutándose en puerto 3000". La terminal se queda bloqueada o en modo de escucha activa, lo que significa que el proceso está corriendo en primer plano listo para recibir conexiones HTTP.
+
+3. ¿Qué sucede cuando visitas la ruta /estado?:
+El navegador web actúa como cliente y envía una petición HTTP GET al puerto 3000. El servidor mapea la URL '/estado', ejecuta la función controladora correspondiente y retorna una respuesta estructurada con una cabecera 'Content-Type: application/json' y el siguiente cuerpo:
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}

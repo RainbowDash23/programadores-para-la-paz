@@ -1,0 +1,16 @@
+Función de los componentes de un entorno servidor:
+
+Sistema operativo:
+Es la capa base de software que administra directamente el hardware del equipo (CPU, RAM, Red). Su función principal es proveer el entorno de bajo nivel, las políticas de seguridad de archivos y los hilos de procesamiento necesarios para que servicios como Node.js puedan ejecutarse y consumir recursos físicos de forma controlada.
+
+Node.js:
+Es un entorno de ejecución de JavaScript basado en el motor V8 de Google que funciona del lado del servidor de manera asíncrona y orientada a eventos. Cumple la función de interpretar y ejecutar el código JavaScript de nuestra aplicación backend de manera ultra rápida, permitiendo manejar múltiples conexiones simultáneas sin bloquear el sistema.
+
+Aplicación server.js:
+Es nuestro código fuente personalizado donde implementamos las reglas de negocio, la lógica de las rutas de la API y los middlewares de control. Su función es dictar exactamente qué debe responder el servidor web cada vez que un usuario realiza una petición HTTP específica, actuando como el cerebro lógico del servicio comunitario.
+
+Puerto:
+Es un identificador numérico o interfaz lógica (en este caso el puerto 3000) que el sistema operativo asigna a una aplicación específica para comunicarse a través de la red. Funciona como una puerta de entrada exclusiva, garantizando que las solicitudes que llegan a la dirección IP del servidor sean redirigidas exactamente al proceso que las está esperando.
+
+Logs:
+Son archivos de texto plano o salidas de consola donde el servidor registra de manera cronológica y automatizada cada evento, error, conexión o actividad que ocurre en el sistema. Su función es proveer trazabilidad y diagnóstico, permitiendo a los administradores de sistemas auditar fallas del código, rastrear accesos no autorizados o analizar problemas de rendimiento.

@@ -1,0 +1,9 @@
+La estabilidad y seguridad en el despliegue de servidores es el factor determinante 
+para el éxito y la sostenibilidad de cualquier plataforma tecnológica de carácter 
+comunitario. Cuando un colectivo de ciudadanos depende de una aplicación web para reportar incidencias, 
+coordinar alertas de seguridad o consultar decisiones locales, el 
+servidor se convierte en una infraestructura pública crítica. Si el servidor experimenta caídas constantes debido a un código 
+mal optimizado o a la ausencia de monitoreo, los usuarios perderán rápidamente el entusiasmo y la confianza, 
+abandonando los canales participativos por completo. Asimismo, la seguridad a nivel de servidor previene que actores malintencionados comprometan las bases de datos o nyecten código malicioso que altere la veracidad de los reportes vecinales.
+Por ello, mantener servicios robustos, configurar logs informativos para reaccionar ante fallas y 
+                         
