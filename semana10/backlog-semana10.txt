@@ -1,0 +1,15 @@
+BACKLOG DE HISTORIAS DE USUARIO (Proyecto: Plataforma de Veeduría Ciudadana)
+
+Ordenado de MAYOR a MENOR prioridad:
+
+[Prioridad Alta - 1]
+Como ciudadano quiero registrar una incidencia de infraestructura pública mediante un formulario web para dejar evidencia del caso con una descripción clara.
+
+[Prioridad Alta - 2]
+Como miembro del equipo técnico quiero consultar la lista total de reportes en un panel para hacerles seguimiento de forma centralizada.
+
+[Prioridad Media - 3]
+Como coordinador de la veeduría quiero recibir una alerta automatizada en Telegram cada vez que se cree un nuevo reporte para revisarlo de inmediato.
+
+[Prioridad Baja - 4]
+Como administrador de la plataforma quiero poder categorizar los reportes por tipos (ambiente, vialidad, seguridad) para organizar estadísticamente las métricas de la comunidad.

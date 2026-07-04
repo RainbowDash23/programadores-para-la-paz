@@ -1,0 +1,18 @@
+DISEÑO DE FLUJO DE AUTOMATIZACIÓN (n8n + Telegram)
+
+Estructura del Flujo Lógico:
+El flujo consta de un nodo inicial de tipo Webhook o consulta de eventos, un nodo intermedio de formateo de texto, y un nodo final de salida conectado a la API de Telegram Bot.
+
+1. ¿Qué evento activa el flujo?
+El flujo se activa de manera automática (Trigger) cuando el servidor backend registra exitosamente un nuevo reporte ciudadano e invoca el Webhook de entrada en n8n enviando los datos de la incidencia.
+
+2. ¿Qué mensaje se enviaría a Telegram?
+Se enviaría una notificación estandarizada al canal de coordinadores con el siguiente formato:
+"⚠️ Alerta de Veeduría: Se ha registrado un nuevo reporte en el sistema. Tipo de incidencia: [tipo]. ID del reporte: #[id]. Por favor, ingrese al panel administrativo para realizar el seguimiento institucional correspondiente."
+
+3. ¿Qué información NO debería enviarse por seguridad?
+Para proteger la privacidad de las personas y mitigar riesgos informáticos, bajo ninguna circunstancia se enviarán a través de Telegram:
+- Nombres completos o apellidos de los ciudadanos denunciantes.
+- Números de documento de identidad (Cédula, pasaporte, etc.).
+- Direcciones exactas residenciales, números telefónicos o correos electrónicos.
+- Credenciales, contraseñas, tokens de acceso o variables de entorno (.env).

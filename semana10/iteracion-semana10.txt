@@ -1,0 +1,16 @@
+PLANIFICACIÓN DE LA ITERACIÓN (SPRINT 1)
+
+1. ¿Qué 2 tareas del backlog harías primero?
+Seleccionaría las tareas de Prioridad Alta: 
+- [Historia 1]: El registro de incidencias por parte del ciudadano.
+- [Historia 2]: La consulta de la lista de reportes por parte del equipo técnico.
+
+2. ¿Por qué son las más importantes?
+Porque constituyen el Producto Mínimo Viable (MVP) del sistema. Sin la capacidad de capturar datos (POST) y sin una interfaz o endpoint para consultarlos (GET), la plataforma no tiene razón de ser. Las automatizaciones de notificaciones (Telegram) o las clasificaciones estadísticas son secundarias y dependen enteramente de que los reportes ya existan de forma sólida y estable en el backend.
+
+3. Definición de Terminado (Definition of Done - DoD):
+Para mí, una tarea o historia de usuario se considera oficialmente "terminada" cuando cumple con los siguientes 4 criterios estrictos:
+- Criterio 1 (Funcionalidad): El código fuente cumple con los requisitos lógicos solicitados y corre de forma local sin errores.
+- Criterio 2 (Pruebas): Los endpoints fueron probados con éxito mediante clientes API (como Postman o Thunder Client) validando respuestas tanto correctas como de error.
+- Criterio 3 (Seguridad): Se validó que el flujo no expone ni procesa datos sensibles o credenciales en texto plano.
+- Criterio 4 (Trazabilidad): El código limpio fue indexado, commiteado y publicado con un mensaje descriptivo en el repositorio de GitHub.
