@@ -1,0 +1,25 @@
+MODELO DE DATOS BÁSICO PARA PLATAFORMA COMUNITARIA
+
+Entidad 1: Causa
+
+Campos principales:
+- id: Entero (Clave primaria, autoincremental)
+- titulo: Texto (Máximo 100 caracteres, obligatorio)
+- descripcion: Texto libre (Obligatorio)
+- categoria: Texto (Ej. Ambiental, Vialidad, Educación)
+- fecha_creacion: Fecha/Hora (Asignada automáticamente)
+
+Propósito de la información:
+Almacenar de forma organizada las causas, proyectos o problemáticas propuestas por los habitantes del sector, sirviendo como el registro público que se renderizará en el frontend para conocimiento de toda la comunidad.
+
+
+Entidad 2: Apoyo
+
+Campos principales:
+- id: Entero (Clave primaria, autoincremental)
+- causa_id: Entero (Clave foránea que conecta directamente con la entidad Causa)
+- hash_usuario: Texto (Identificador anonimizado del usuario firmante para evitar duplicidad)
+- fecha_apoyo: Fecha/Hora (Instante exacto en el que se registra la acción)
+
+Propósito de la información:
+Registrar de manera segura e inequívoca las firmas digitales de respaldo que recibe cada causa comunitaria, permitiendo auditar el volumen real de participación ciudadana y priorizar los proyectos sin almacenar datos personales explícitos.

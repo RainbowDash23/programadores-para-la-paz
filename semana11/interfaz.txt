@@ -1,0 +1,10 @@
+DISEÑO DE LA INTERFAZ BÁSICA DE USUARIO
+
+1. Formulario para crear una causa:
+Contará con un bloque visual limpio compuesto por un campo de texto para el 'Título', un área de texto amplia para la 'Descripción', un menú desplegable para seleccionar la 'Categoría', y un botón visible con la etiqueta 'Publicar Causa'. Este formulario enviará los datos mediante una petición HTTP POST al backend protegido.
+
+2. Vista de causas disponibles:
+Se estructurará como un panel principal de tarjetas (cards) ordenadas cronológicamente. Cada tarjeta mostrará de forma clara el título de la causa, la categoría con un color distintivo, la descripción de la problemática y la fecha de publicación, evitando campos que vulneren la privacidad de quien la redactó.
+
+3. Botón para apoyar una causa y Contador de apoyos:
+En la esquina inferior derecha de cada tarjeta de causa, se ubicará un botón interactivo llamado 'Apoyar Causa'. Justo al lado del botón, se mostrará un indicador numérico dinámico (Contador) que se actualizará en tiempo real consumiendo un endpoint GET para reflejar el total acumulado de apoyos que ha recibido la iniciativa de forma transparente.

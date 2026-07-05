@@ -1,0 +1,7 @@
+EXPLICACIÓN DE AUTENTICACIÓN Y SEGURIDAD
+
+El login en una aplicación es el mecanismo de control de acceso que permite validar la identidad de un usuario a través de credenciales (habitualmente correo electrónico y contraseña encriptada) antes de permitirle interactuar con el sistema. 
+
+En un entorno comunitario, es indispensable que ciertas rutas del backend estén estrictamente protegidas (por ejemplo, la eliminación de causas o la aprobación de reportes de veeduría) para prevenir que usuarios anónimos o atacantes externos manipulen maliciosamente la información o saboteen la base de datos local. 
+
+Por motivos de seguridad y privacidad, nunca se debe exponer públicamente información sensible como contraseñas en texto plano, números de cédula, números de teléfono, direcciones residenciales exactas, o tokens de variables de entorno (.env). La protección de estas interfaces garantiza un entorno digital transparente, legítimo y seguro para todos.

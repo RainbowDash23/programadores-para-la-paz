@@ -1,0 +1,8 @@
+Una plataforma tecnológica enfocada en la participación ciudadana no 
+puede subsistir únicamente con interfaces llamativas; requiere de forma 
+obligatoria un backend estructurado con bases de datos, autenticación robusta y 
+rigurosas políticas de protección de la información. La base de datos es la herramienta 
+que garantiza la persistencia, el ordenamiento y la auditoría transparente de las propuestas del vecindario, evitando que los datos se pierdan tras un reinicio del sistema. 
+Por otro lado, la autenticación introduce un factor de responsabilidad técnica y cívica, regulando los roles dentro del software para asegurar que solo los moderadores avalados puedan alterar estados, 
+lo que previene ataques de suplantación o sabotajes informáticos que invaliden los procesos comunitarios. Finalmente, 
+la protección de datos no sensibles es un compromiso ético ineludible: si la comunidad percibe que sus números de contacto o identidades están expuestos a filtraciones, el miedo destruirá la confianza y abandonarán la participación. Diseñar con seguridad por defecto es la única vía para construir canales digitales democráticos, duraderos y genuinamente confiables.
