@@ -1,0 +1,14 @@
+DISEÑO DE AUTOMATIZACIÓN RESPONSABLE CON N8N Y TELEGRAM
+
+1. Evento desencadenador (Trigger): 
+Un webhook HTTP POST que se activa de forma automática en Node.js en el instante exacto en que un ciudadano registra una nueva causa comunitaria con éxito en la base de datos.
+
+2. Mensaje estructurado que se envía:
+"NUEVA CAUSA COMUNITARIA REGISTRADA
+Título de la iniciativa: [Variable: causa.titulo]
+Fecha de inicio: [Variable: causa.fecha]
+Meta de apoyos: [Variable: causa.meta_apoyos] firmas.
+¡Ingresa a la plataforma y suma tu respaldo digital para fortalecer el control social!"
+
+3. Información restringida por seguridad y privacidad:
+Bajo ninguna circunstancia la automatización transmitirá a n8n o Telegram nombres completos de usuarios, documentos de identidad (cédulas), correos electrónicos, números telefónicos particulares, direcciones físicas ni comentarios que vulneren o expongan el perfil o la integridad de los integrantes de la comunidad.

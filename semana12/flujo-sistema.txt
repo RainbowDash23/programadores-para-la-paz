@@ -1,0 +1,11 @@
+FLUJO DEL SISTEMA: "PETICIÓN EN 3 CLICS"
+
+Paso 1 - Registro de la Causa: Un líder comunitario o ciudadano accede a la interfaz y rellena un formulario básico ingresando el título, descripción y categoría de la problemática detectada.
+
+Paso 2 - Persistencia en Backend: Al presionar "Crear", el servidor Node.js procesa la solicitud mediante una ruta HTTP POST y almacena de forma permanente los datos estructurados en la base de datos.
+
+Paso 3 - Concurrencia de Apoyos: Los miembros del vecindario visualizan la causa publicada en el frontend y, tras validar su cuenta, pulsan el botón para sumar su firma de respaldo digital.
+
+Paso 4 - Recuento Automatizado: El backend intercepta los apoyos, incrementa el contador relacional asociado al ID de la causa e invoca un webhook que envía alertas instantáneas de avance a un canal informativo.
+
+Paso 5 - Cierre y Exportación Documental: Al alcanzar la meta de respaldos establecida, el sistema compila la metadata de la causa y el volumen de apoyos, generando automáticamente un documento oficial en formato PDF para ser presentado formalmente ante las entidades del Estado.

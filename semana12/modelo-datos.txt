@@ -1,0 +1,23 @@
+DISEÑO DE MODELO DE DATOS INTEGRADO — RETO FINAL
+
+Entidad 1: Causa
+Campos:
+- id: Entero (Clave primaria, único, autoincremental)
+- titulo: Texto (Límite de 100 caracteres, obligatorio)
+- descripcion: Texto libre (Obligatorio)
+- meta_apoyos: Entero (Número de firmas requeridas)
+- fecha: Fecha/Hora (Registrada en el backend de forma automática)
+
+Propósito: 
+Sirve de repositorio centralizado para documentar las necesidades colectivas vigentes. Mantiene la información pública descriptiva que los ciudadanos evaluarán y sobre la cual se estructurará formalmente el encabezado del documento PDF de exigibilidad.
+
+
+Entidad 2: Apoyo
+Campos:
+- id: Entero (Clave primaria, único, autoincremental)
+- causa_id: Entero (Clave foránea que enlaza directamente con el ID de la Causa)
+- id_anonimo_usuario: Texto (Código hash único generado para evitar votos repetidos sin revelar identidad)
+- fecha: Fecha/Hora (Instante exacto de la firma)
+
+Propósito:
+Funciona como el registro de auditoría de participación. Registra la relación uno a muchos (una causa puede recibir muchos apoyos) y permite computar numéricamente el impacto social de la iniciativa de forma transparente sin retener datos personales sensibles.

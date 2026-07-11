@@ -1,0 +1,8 @@
+A lo largo de este curso, he comprendido que la tecnología es un catalizador extraordinario para descentralizar los canales tradicionales de participación ciudadana y potenciar el control social en los territorios. 
+Aprendí que diseñar software con impacto social va mucho más allá de lograr un sistema que simplemente funcione de forma técnica en Node.js; 
+se trata de una responsabilidad ética de cara a la comunidad.
+El uso riguroso de Git como herramienta de control y transparencia de versiones, 
+la estructuración ágil de un backlog para ordenar las metas del equipo, y la minimización de datos en las bases de datos locales me enseñaron a estructurar código seguro por defecto. 
+El reto "Petición en 3 Clics" demuestra que el código backend puede dotar de herramientas legítimas y transparentes a las veedurías ciudadanas frente a las entidades estatales. 
+Al automatizar procesos de forma responsable sin descuidar el control humano ni arriesgar la privacidad de los vecinos, la tecnología se convierte en una extensión de la organización democrática real.
+En definitiva, este programa me ha transformado en un desarrollador consciente de que el verdadero valor del software radica en su capacidad para proteger, organizar y servir a los derechos colectivos.
